@@ -1,0 +1,496 @@
+/* ============================
+   GOOGLE FONT
+============================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#eef2f7;
+    overflow-x:hidden;
+}
+
+/* ============================
+   NAVBAR
+============================ */
+
+.navbar{
+    background:linear-gradient(90deg,#2563eb,#4f46e5)!important;
+    height:75px;
+    box-shadow:0 5px 20px rgba(0,0,0,.2);
+}
+
+.navbar-brand{
+    font-size:35px;
+    font-weight:700;
+}
+
+.navbar .btn{
+    border-radius:12px;
+}
+
+/* ============================
+   SIDEBAR
+============================ */
+
+.sidebar{
+
+    background:#1e293b;
+
+    min-height:100vh;
+
+    padding-top:20px;
+
+    box-shadow:5px 0 15px rgba(0,0,0,.1);
+
+}
+
+.sidebar h4{
+
+    color:white;
+
+    font-weight:bold;
+
+}
+
+.sidebar .nav-link{
+
+    color:#cbd5e1;
+
+    padding:15px 25px;
+
+    font-size:17px;
+
+    border-radius:12px;
+
+    margin:8px;
+
+    transition:.3s;
+
+}
+
+.sidebar .nav-link i{
+
+    margin-right:10px;
+
+}
+
+.sidebar .nav-link:hover{
+
+    background:#2563eb;
+
+    color:white;
+
+    transform:translateX(8px);
+
+}
+
+.sidebar .active{
+
+    background:#2563eb;
+
+    color:white!important;
+
+}
+
+/* ============================
+   PAGE TITLE
+============================ */
+
+h2{
+
+    font-weight:700;
+
+    color:#1e293b;
+
+}
+
+/* ============================
+   DASHBOARD CARDS
+============================ */
+
+.dashboard-card{
+
+    color:white;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.12);
+
+    transition:.4s;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.dashboard-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:120px;
+
+    height:120px;
+
+    background:rgba(255,255,255,.15);
+
+    border-radius:50%;
+
+    top:-35px;
+
+    right:-35px;
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.dashboard-card i{
+
+    font-size:40px;
+
+}
+
+.dashboard-card h5{
+
+    margin-top:15px;
+
+    font-size:18px;
+
+}
+
+.dashboard-card h2{
+
+    color:white;
+
+    font-size:42px;
+
+    font-weight:bold;
+
+}
+
+.blue{
+
+    background:linear-gradient(135deg,#2563eb,#3b82f6);
+
+}
+
+.green{
+
+    background:linear-gradient(135deg,#16a34a,#22c55e);
+
+}
+
+.red{
+
+    background:linear-gradient(135deg,#dc2626,#ef4444);
+
+}
+
+.orange{
+
+    background:linear-gradient(135deg,#f97316,#fb923c);
+
+}
+
+/* ============================
+   SEARCH
+============================ */
+
+.form-control{
+
+    height:50px;
+
+    border-radius:12px;
+
+    border:none;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.form-control:focus{
+
+    box-shadow:0 0 12px rgba(37,99,235,.4);
+
+}
+
+.form-select{
+
+    height:50px;
+
+    border-radius:12px;
+
+    border:none;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+/* ============================
+   BUTTONS
+============================ */
+
+.btn{
+
+    border-radius:12px;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.btn-primary{
+
+    background:#2563eb;
+
+    border:none;
+
+}
+
+.btn-primary:hover{
+
+    background:#1d4ed8;
+
+    transform:scale(1.05);
+
+}
+
+.btn-danger:hover,
+
+.btn-warning:hover,
+
+.btn-success:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* ============================
+   TABLE
+============================ */
+
+.table{
+
+    background:white;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+}
+
+.table thead{
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+.table th{
+
+    padding:18px;
+
+}
+
+.table td{
+
+    padding:16px;
+
+    vertical-align:middle;
+
+}
+
+.table tbody tr{
+
+    transition:.3s;
+
+}
+
+.table tbody tr:hover{
+
+    background:#eff6ff;
+
+}
+
+/* Student Photo */
+
+.student-img{
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:3px solid #2563eb;
+
+}
+
+/* Status */
+
+.badge{
+
+    font-size:14px;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+}
+
+/* ============================
+   RECENT ACTIVITY
+============================ */
+
+.card{
+
+    border:none;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+}
+
+.card-header{
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+/* ============================
+   FOOTER
+============================ */
+
+footer{
+
+    margin-top:50px;
+
+    background:#1e293b;
+
+}
+
+/* ============================
+   SCROLLBAR
+============================ */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#ddd;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#2563eb;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#1d4ed8;
+
+}
+
+/* ============================
+   ANIMATION
+============================ */
+
+.dashboard-card{
+
+    animation:fadeUp .8s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ============================
+   RESPONSIVE
+============================ */
+
+@media(max-width:992px){
+
+.sidebar{
+
+    min-height:auto;
+
+}
+
+.dashboard-card{
+
+    margin-bottom:20px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.navbar-brand{
+
+    font-size:24px;
+
+}
+
+.dashboard-card h2{
+
+    font-size:30px;
+
+}
+
+.table{
+
+    font-size:14px;
+
+}
+
+}

@@ -1,1 +1,2 @@
-# student-management-system
+# Student Management System
+Open index.html
